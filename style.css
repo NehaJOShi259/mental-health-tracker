@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #f4f6f8;
+  padding: 20px;
+  color: #2c3e50;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+.mood‑buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.mood‑buttons button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.3s;
+}
+
+.mood‑buttons button:hover {
+  transform: scale(1.05);
+  background-color: #2980b9;
+}
+
+#quote {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 25px;
+  color: #8e44ad;
+  background-color: #f0e6f9;
+  padding: 12px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+#history {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#history li {
+  margin-bottom: 6px;
+  color: #2c3e50;
+  text-align: left;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+.data-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.chart-box,
+.history-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .data-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
