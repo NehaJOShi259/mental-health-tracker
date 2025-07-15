@@ -30,8 +30,30 @@ A lightweight, interactive web app that allows users to **track their mood** and
 
 ## 💻 File Structure
 
+
 ```bash
 📁 mental-health-tracker/
 ├── index.html       # Webpage layout
 ├── style.css        # Styling and animations
 ├── script.js        # Mood logic + Chart rendering
+
+---
+
+## 🔧 How to Run This Project
+
+### 🔹 Option 1: Run Live (Recommended)
+You can directly view and test the app here:
+
+👉 **[Live Demo](https://nehajoshi259.github.io/mental-health-tracker/)**
+
+*(No installation or setup needed)*
+
+---
+
+### 🔹 Option 2: Run Locally
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/NehaJOShi259/mental-health-tracker.git
+
